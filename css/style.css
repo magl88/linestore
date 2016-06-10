@@ -10,5 +10,37 @@ a {
 header .nav-top {
   background: #3394d2;
   height: 50px; }
+  header .nav-top .menu-top {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    header .nav-top .menu-top li {
+      display: inline-block; }
+      header .nav-top .menu-top li a {
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+        display: block;
+        padding: 15px 30px; }
+      header .nav-top .menu-top li.active a {
+        text-decoration: underline; }
+      header .nav-top .menu-top li:last-child a {
+        background-color: #e00025;
+        box-shadow: 3.4px 4.9px 2px rgba(0, 3, 1, 0.15); }
+header .head .logo {
+  display: table;
+  margin-top: 30px; }
+header .head .tel-search > div {
+  padding: 0; }
+header .head .tel {
+  font-weight: 600;
+  display: table;
+  color: #666;
+  margin: 40px auto 0 auto; }
+  header .head .tel.tel1 {
+    padding-left: 25px;
+    background: url("../img/icon/icon-tel.png") no-repeat 0 center transparent; }
+  header .head .tel strong {
+    font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -17,9 +17,51 @@
 <body>
 <div class="wrapper">
 	<header>
-		<div class="container-fluid nav-top hide visible-lg">
+		<nav class="container-fluid nav-top hide visible-lg">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<ul class="menu-top">
+							<li class="item item1 active"><a href="#" title="новости">новости</a></li>
+							<li class="item item2"><a href="#" title="обратная связь">обратная связь</a></li>
+							<li class="item item3"><a href="#" title="оплата и доставка">оплата и доставка</a></li>
+							<li class="item item4"><a href="#" title="о магазине">о магазине</a></li>
+							<li class="item item5"><a href="#" title="отзывы">отзывы</a></li>
+							<li class="item item6"><a href="#" title="о нас">о нас</a></li>
+							<li class="item item7"><a href="#" title="получить скидку">получить скидку</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="container head">
 			<div class="row">
-
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<a href="/" class="logo" title="Linestore.by">
+						<img src="/img/logo.jpg" alt="Linestore.by">
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-4 col-xs-6">
+					<div class="row tel-search">
+						<div class="col-lg-4 col-md-6">
+							<a class="tel1 tel" href="tel:+74959264949" title="+7 (495) 926-49-49">+7 (495) <strong>926-49-49</strong></a>
+						</div>
+						<div class="col-lg-4 col-md-6 hide visible-sm visible-lg visible-md">
+							<a class="tel2 tel" href="tel:+74959264949" title="+7 (495) 926-49-49">+7 (495) <strong>926-49-49</strong></a>
+						</div>
+						<div class="col-lg-4 hide visible-lg">
+							<div class="block-search">
+								<form action="#">
+									<input type="text" class="search" placeholder="Поиск">
+									<input type="submit" class="search-send" title="Искать" >
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-2 col-xs-6">
+					корзина
+				</div>
 			</div>
 		</div>
 	</header>

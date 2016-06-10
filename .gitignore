@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/
+.idea/vcs.xml
+.idea/.name
+.idea/copyright/
+.idea/deployment.xml
+.idea/encodings.xml
+.idea/linestore.new.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml

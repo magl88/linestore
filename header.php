@@ -52,7 +52,7 @@
 						<div class="col-lg-4 hide visible-lg">
 							<div class="block-search">
 								<form action="#">
-									<input type="text" class="search" placeholder="Поиск">
+									<input type="text" class="search-inp" placeholder="Поиск">
 									<input type="submit" class="search-send" title="Искать" >
 								</form>
 							</div>
@@ -60,8 +60,19 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-2 col-xs-6">
-					корзина
+					<div class="dropdown mini-cart">
+						<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span class="col-tow hide">4</span>
+							<span class="title">В корзине</span>
+							<span class="tov">товаров: 0 шт</span>
+							<span class="summ">на сумму: 0 руб</span>
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dLabel">
+							Корзина
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</header>
+	<div class="content-wrapper">

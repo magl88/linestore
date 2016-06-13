@@ -15,7 +15,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6 col-sm-8 visible-sm-block">
+			<div class="col-lg-4 col-md-6 col-sm-8 visible-sm-block visible-md-block visible-lg-block">
 				<div class="title">Категории</div>
 				<div class="foot-cat">
 					<ul>
@@ -34,7 +34,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-3 visible-md-block">
+			<div class="col-md-3 visible-md-block visible-lg-block">
 				<div class="title">Бренды</div>
 				<ul class="foot-brend">
 					<li><a href="#">SSANGYONG</a></li>

@@ -624,3 +624,24 @@
 	}
 }
 //=========================================
+.row-box{
+	margin-bottom: 20px;
+	.glyphicon{
+		color: #419cd5;
+		font-size: 25px;
+		width: 30px;
+		float: left;
+	}
+	.box-title{
+		span{
+			font-size: 15px;
+			font-weight: bold;
+			display: table;
+		}
+	}
+	.box-text{
+		padding-top: 15px;
+		padding-left: 30px;
+	}
+}
+//=========================================

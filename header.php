@@ -25,10 +25,14 @@
 							<li class="item item1 active"><a href="/news-cat.php" title="новости">новости</a></li>
 							<li class="item item2"><a href="/page-form.php" title="обратная связь">обратная связь</a></li>
 							<li class="item item3"><a href="/page-oplata.php" title="оплата и доставка">оплата и доставка</a></li>
-							<li class="item item4"><a href="/news-page.php" title="о магазине">о магазине</a></li>
+							<li class="item item4"><a href="/page-magazin.php" title="о магазине">о магазине</a></li>
 							<li class="item item5"><a href="/page-garant.php" title="Гарантия">Гарантия</a></li>
-							<li class="item item6"><a href="#" title="отзывы">отзывы</a></li>
+							<li class="item item6"><a href="/news-page.php" title="отзывы">отзывы</a></li>
 							<li class="item item7"><a href="/page.php" title="о нас">о нас</a></li>
+							<li class="item item8"><a href="#" title="регистрация"><i class="glyphicon glyphicon-user"></i>регистрация</a></li>
+							<li class="item item9 hide"><a href="#" title="Личный кабинет"><i class="glyphicon glyphicon-user"></i>Личный кабинет</a></li>
+							<li class="item item10"><a href="#" title="авторизация"><i class="glyphicon glyphicon-log-in"></i>авторизация</a></li>
+							<li class="item item11 hide"><a href="#" title="Выход"><i class="glyphicon glyphicon-log-out"></i>Выход</a></li>
 						</ul>
 					</div>
 				</div>
@@ -49,7 +53,7 @@
 						</div>
 						<div class="col-lg-4 col-sm-6 hidden  visible-sm visible-lg visible-md">
 							<a class="tel2 tel" href="tel:+74959264949" title="+7 (495) 926-49-49">+7 (495) <strong>926-49-49</strong></a>
-							<span class="work-time">c 9:00 до 18:00</span>
+							<span class="work-time">Ежедневно c 9:00 до 20:00</span>
 						</div>
 						<div class="col-lg-4 hide visible-lg">
 							<div class="block-search">
@@ -74,6 +78,10 @@
 							<li class="item item5"><a href="/page-garant.php" title="Гарантия">Гарантия</a></li>
 							<li class="item item6"><a href="#" title="отзывы">отзывы</a></li>
 							<li class="item item7"><a href="/page.php" title="о нас">о нас</a></li>
+							<li class="item item8"><a href="#" title="регистрация"><i class="glyphicon glyphicon-user"></i>регистрация</a></li>
+							<li class="item item9 hide"><a href="#" title="Личный кабинет"><i class="glyphicon glyphicon-user"></i>Личный кабинет</a></li>
+							<li class="item item10"><a href="#" title="авторизация"><i class="glyphicon glyphicon-log-in"></i>авторизация</a></li>
+							<li class="item item11 hide"><a href="#" title="Выход"><i class="glyphicon glyphicon-log-out"></i>Выход</a></li>
 						</ul>
 					</div>
 					<div class="dropdown mini-cart visible-lg-block">

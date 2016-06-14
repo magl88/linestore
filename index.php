@@ -154,7 +154,7 @@
 										</div>
 									</div>
 									<div class="buy-wrap">
-										<a href="#" class="buy"><span>Купить</span></a>
+										<a href="#" class="buy"><span>В корзину</span></a>
 									</div>
 								</div>
 							</div>
@@ -175,7 +175,7 @@
 										</div>
 									</div>
 									<div class="buy-wrap">
-										<a href="#" class="buy"><span>Купить</span></a>
+										<a href="#" class="buy"><span>В корзину</span></a>
 									</div>
 								</div>
 							</div>
@@ -200,7 +200,7 @@
 										</div>
 									</div>
 									<div class="buy-wrap">
-										<a href="#" class="buy"><span>Купить</span></a>
+										<a href="#" class="buy"><span>В корзину</span></a>
 									</div>
 								</div>
 							</div>
@@ -226,7 +226,7 @@
 										</div>
 									</div>
 									<div class="buy-wrap">
-										<a href="#" class="buy"><span>Купить</span></a>
+										<a href="#" class="buy"><span>В корзину</span></a>
 									</div>
 								</div>
 							</div>
@@ -247,7 +247,7 @@
 										</div>
 									</div>
 									<div class="buy-wrap">
-										<a href="#" class="buy"><span>Купить</span></a>
+										<a href="#" class="buy"><span>В корзину</span></a>
 									</div>
 								</div>
 							</div>
@@ -272,7 +272,7 @@
 										</div>
 									</div>
 									<div class="buy-wrap">
-										<a href="#" class="buy"><span>Купить</span></a>
+										<a href="#" class="buy"><span>В корзину</span></a>
 									</div>
 								</div>
 							</div>
@@ -298,7 +298,7 @@
 										</div>
 									</div>
 									<div class="buy-wrap">
-										<a href="#" class="buy"><span>Купить</span></a>
+										<a href="#" class="buy"><span>В корзину</span></a>
 									</div>
 								</div>
 							</div>
@@ -319,7 +319,7 @@
 										</div>
 									</div>
 									<div class="buy-wrap">
-										<a href="#" class="buy"><span>Купить</span></a>
+										<a href="#" class="buy"><span>В корзину</span></a>
 									</div>
 								</div>
 							</div>
@@ -344,7 +344,7 @@
 										</div>
 									</div>
 									<div class="buy-wrap">
-										<a href="#" class="buy"><span>Купить</span></a>
+										<a href="#" class="buy"><span>В корзину</span></a>
 									</div>
 								</div>
 							</div>

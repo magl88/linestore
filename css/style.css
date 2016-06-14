@@ -61,9 +61,6 @@ header {
           padding: 15px 30px; }
         header .nav-top .menu-top li.active a {
           text-decoration: underline; }
-        header .nav-top .menu-top li:last-child a {
-          background-color: #e00025;
-          box-shadow: 3.4px 4.9px 2px rgba(0, 3, 1, 0.15); }
   header .block-search {
     margin-top: 35px; }
     header .block-search .search-inp {
@@ -96,6 +93,12 @@ header {
     display: table;
     margin-top: 30px;
     margin-bottom: 20px; }
+  header .head .mail {
+    display: table;
+    margin: 0 auto; }
+  header .head .work-time {
+    display: block;
+    text-align: center; }
   header .head .tel-search > div {
     padding: 0; }
   header .head .tel {
@@ -143,9 +146,6 @@ header {
       padding: 15px 30px; }
     header .head .mob-nav.open .dropdown-menu-top li.active a {
       text-decoration: underline; }
-    header .head .mob-nav.open .dropdown-menu-top li:last-child a {
-      background-color: #e00025;
-      box-shadow: 3.4px 4.9px 2px rgba(0, 3, 1, 0.15); }
   header .head .mini-cart {
     margin-top: 20px; }
     header .head .mini-cart button {
@@ -847,5 +847,50 @@ td {
   font-weight: 700;
   line-height: 20px;
   text-transform: uppercase; }
+
+.block-tabs .nav-tabs {
+  border: none; }
+  .block-tabs .nav-tabs > li.active {
+    background: #f8fcff;
+    border: none; }
+  .block-tabs .nav-tabs > li.active > a, .block-tabs .nav-tabs > li.active > a:focus, .block-tabs .nav-tabs > li.active > a:hover {
+    background: transparent;
+    border: none; }
+  .block-tabs .nav-tabs .tab-li {
+    background: transparent;
+    border: none;
+    width: 240px;
+    padding-bottom: 25px; }
+    .block-tabs .nav-tabs .tab-li a {
+      padding: 10px 0 10px 15px;
+      background: transparent;
+      border: none;
+      color: #797979;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 25px;
+      text-transform: uppercase; }
+  .block-tabs .nav-tabs .num {
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #efefef;
+    box-shadow: 3.4px 4.9px 2px rgba(0, 3, 1, 0.15);
+    border-radius: 50%;
+    color: #797979;
+    margin-right: 10px;
+    padding: 9px 0 0;
+    text-align: center; }
+  .block-tabs .nav-tabs .active .num {
+    background: #419cd5;
+    color: #fff; }
+  .block-tabs .nav-tabs .tab-inf {
+    display: block;
+    padding-left: 50px; }
+.block-tabs .tab-content {
+  background-color: #f8fcff;
+  box-shadow: 3.4px 4.9px 2px rgba(0, 3, 1, 0.15);
+  padding: 30px 25px; }
 
 /*# sourceMappingURL=style.css.map */

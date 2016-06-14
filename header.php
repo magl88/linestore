@@ -24,11 +24,11 @@
 						<ul class="menu-top">
 							<li class="item item1 active"><a href="/news-cat.php" title="новости">новости</a></li>
 							<li class="item item2"><a href="/page-form.php" title="обратная связь">обратная связь</a></li>
-							<li class="item item3"><a href="#" title="оплата и доставка">оплата и доставка</a></li>
+							<li class="item item3"><a href="/page-oplata.php" title="оплата и доставка">оплата и доставка</a></li>
 							<li class="item item4"><a href="/news-page.php" title="о магазине">о магазине</a></li>
-							<li class="item item5"><a href="#" title="отзывы">отзывы</a></li>
-							<li class="item item6"><a href="/page.php" title="о нас">о нас</a></li>
-							<li class="item item7"><a href="#" title="получить скидку">получить скидку</a></li>
+							<li class="item item5"><a href="/page-garant.php" title="Гарантия">Гарантия</a></li>
+							<li class="item item6"><a href="#" title="отзывы">отзывы</a></li>
+							<li class="item item7"><a href="/page.php" title="о нас">о нас</a></li>
 						</ul>
 					</div>
 				</div>
@@ -45,9 +45,11 @@
 					<div class="row tel-search">
 						<div class="col-lg-4 col-sm-6">
 							<a class="tel1 tel" href="tel:+74959264949" title="+7 (495) 926-49-49">+7 (495) <strong>926-49-49</strong></a>
+							<a class="mail" href="mileto:info@linestore.by">info@linestore.by</a>
 						</div>
 						<div class="col-lg-4 col-sm-6 hidden  visible-sm visible-lg visible-md">
 							<a class="tel2 tel" href="tel:+74959264949" title="+7 (495) 926-49-49">+7 (495) <strong>926-49-49</strong></a>
+							<span class="work-time">c 9:00 до 18:00</span>
 						</div>
 						<div class="col-lg-4 hide visible-lg">
 							<div class="block-search">
@@ -69,9 +71,9 @@
 							<li class="item item2"><a href="#" title="обратная связь">обратная связь</a></li>
 							<li class="item item3"><a href="#" title="оплата и доставка">оплата и доставка</a></li>
 							<li class="item item4"><a href="#" title="о магазине">о магазине</a></li>
-							<li class="item item5"><a href="#" title="отзывы">отзывы</a></li>
-							<li class="item item6"><a href="#" title="о нас">о нас</a></li>
-							<li class="item item7"><a href="#" title="получить скидку">получить скидку</a></li>
+							<li class="item item5"><a href="/page-garant.php" title="Гарантия">Гарантия</a></li>
+							<li class="item item6"><a href="#" title="отзывы">отзывы</a></li>
+							<li class="item item7"><a href="/page.php" title="о нас">о нас</a></li>
 						</ul>
 					</div>
 					<div class="dropdown mini-cart visible-lg-block">

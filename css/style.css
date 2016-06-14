@@ -18,6 +18,9 @@ button:focus {
 a {
   color: #419cd5; }
 
+img {
+  max-width: 100% !important; }
+
 .wrapper {
   position: relative;
   min-height: 100%; }
@@ -28,6 +31,13 @@ a {
 h1.page-title {
   color: #419cd5;
   font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0 15px 0;
+  padding: 0; }
+
+h2.page-title {
+  color: #419cd5;
+  font-size: 27px;
   font-weight: 700;
   margin: 10px 0 15px 0;
   padding: 0; }
@@ -319,6 +329,50 @@ footer {
 
 .main-left-bar {
   margin: 15px 0 0; }
+
+.alignnone {
+  margin: 5px 20px 20px 0; }
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto; }
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px; }
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0; }
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px; }
+
+a img.alignnone {
+  margin: 5px 20px 20px 0; }
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0; }
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+caption {
+  display: inline-block;
+  background: url("../img/point-1.png") no-repeat 100% center transparent;
+  padding-right: 20px;
+  color: #525252;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 16px; }
+
+td {
+  vertical-align: top; }
 
 .block-catalog-nav {
   background-color: white;
@@ -632,6 +686,41 @@ footer {
     line-height: 18px;
     text-decoration: underline;
     float: right; }
+
+.block-category-page {
+  margin-bottom: 50px; }
+  .block-category-page .data {
+    background: url("../img/icon/icon-data.png") no-repeat 0 0 transparent;
+    padding: 5px 0 5px 30px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #444;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px; }
+  .block-category-page img {
+    border: 1px solid #f0efef;
+    border-radius: 4px; }
+  .block-category-page table {
+    margin-top: 10px;
+    margin-bottom: 20px; }
+  .block-category-page .page-next {
+    border-top: 1px solid #ebebeb;
+    display: table;
+    width: 100%; }
+    .block-category-page .page-next a {
+      margin-top: 10px;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: underline; }
+    .block-category-page .page-next .prev {
+      padding-left: 20px;
+      background: url("../img/nav-arr4.png") no-repeat 0 center transparent; }
+    .block-category-page .page-next .next {
+      float: right;
+      padding-right: 20px;
+      background: url("../img/nav-arr1.png") no-repeat 100% center transparent; }
 
 .block-pagenavi {
   text-align: center; }

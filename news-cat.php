@@ -4,8 +4,7 @@
 			<div class="col-xs-12">
 				<div id="breadcrumbs" class="block-breadcrumbs">
 					<span><a title="linestore.by" href="#" class="home"><span>Главная</span></a></span> /
-					<span><a title="Новости" href="#"><span>Новости</span></a></span> /
-					<span><span>20 секретов идеального резюме</span></span>
+					<span><span>Новости</span></span>
 				</div>
 			</div>
 		</div>

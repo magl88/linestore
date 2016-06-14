@@ -26,7 +26,7 @@ img {
   min-height: 100%; }
 
 .content-wrapper {
-  padding-bottom: 260px; }
+  padding-bottom: 280px; }
 
 h1.page-title {
   color: #419cd5;
@@ -373,6 +373,17 @@ caption {
 
 td {
   vertical-align: top; }
+
+.h2point {
+  text-transform: uppercase;
+  display: table;
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 1;
+  padding-right: 15px;
+  background: url("../img/point-1.png") no-repeat right center transparent; }
 
 .block-catalog-nav {
   background-color: white;

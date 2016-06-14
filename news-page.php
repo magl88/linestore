@@ -30,7 +30,6 @@
 								<p>Модель LG Action Cam LTE совместима со всеми мобильными устройствами, работающими на iOS и Android. Экшн-камера оснащена процессором Qualcomm Snapdragon 650, 2 ГБ оперативной памяти и встроенным накопителем на 4 ГБ. А отснятый материал может храниться на microSD-картах.</p>
 								<p><img class="aligncenter" src="/img/news-page-img.jpg" alt="news"></p>
 								<div class="table-responsive">
-
 									<table class="aligncenter" style="width:530px;">
 										<caption>Характеристика товара</caption>
 										<tr>

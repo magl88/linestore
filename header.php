@@ -36,17 +36,17 @@
 		</nav>
 		<div class="container head">
 			<div class="row">
-				<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="col-md-3 col-sm-4 col-xs-10">
 					<a href="/" class="logo" title="Linestore.by">
 						<img src="/img/logo.jpg" alt="Linestore.by">
 					</a>
 				</div>
-				<div class="col-md-6 col-sm-4 col-xs-6">
+				<div class="col-md-7 col-sm-7 col-xs-6 hidden-xs">
 					<div class="row tel-search">
-						<div class="col-lg-4 col-md-6">
+						<div class="col-lg-4 col-sm-6">
 							<a class="tel1 tel" href="tel:+74959264949" title="+7 (495) 926-49-49">+7 (495) <strong>926-49-49</strong></a>
 						</div>
-						<div class="col-lg-4 col-md-6 hide visible-sm visible-lg visible-md">
+						<div class="col-lg-4 col-sm-6 hidden  visible-sm visible-lg visible-md">
 							<a class="tel2 tel" href="tel:+74959264949" title="+7 (495) 926-49-49">+7 (495) <strong>926-49-49</strong></a>
 						</div>
 						<div class="col-lg-4 hide visible-lg">
@@ -59,8 +59,22 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-2 col-xs-6">
-					<div class="dropdown mini-cart">
+				<div class="col-md-2 col-sm-1 col-xs-2">
+					<div class="mob-nav dropdown hidden-lg">
+						<button id="dLabel-nav" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Меню
+						</button>
+						<ul class="dropdown-menu-top" aria-labelledby="dLabel-nav" >
+							<li class="item item1 active"><a href="#" title="новости">новости</a></li>
+							<li class="item item2"><a href="#" title="обратная связь">обратная связь</a></li>
+							<li class="item item3"><a href="#" title="оплата и доставка">оплата и доставка</a></li>
+							<li class="item item4"><a href="#" title="о магазине">о магазине</a></li>
+							<li class="item item5"><a href="#" title="отзывы">отзывы</a></li>
+							<li class="item item6"><a href="#" title="о нас">о нас</a></li>
+							<li class="item item7"><a href="#" title="получить скидку">получить скидку</a></li>
+						</ul>
+					</div>
+					<div class="dropdown mini-cart visible-lg-block">
 						<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							<span class="col-tow hide">4</span>
 							<span class="title">В корзине</span>
@@ -70,6 +84,114 @@
 						<div class="dropdown-menu" aria-labelledby="dLabel">
 							Корзина
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container head-mob hidden-lg">
+			<div class="row">
+				<div class="col-md-3 col-sm-4 col-xs-9">
+					<div class="block-catalog-nav dropdown row">
+						<div id="dLabel-cat" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Каталог товаров</span></div>
+						<nav aria-labelledby="dLabel-cat" class="navmenu navmenu-default" role="navigation">
+							<ul class="nav navmenu-nav">
+								<li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Спорт и Отдых</a>
+									<ul class="dropdown-menu navmenu-nav" role="menu">
+										<li><a href="#">Пункт 1.1</a></li>
+										<li><a href="#">Пункт 1.2</a></li>
+										<li><a href="#">Пункт 1.3</a></li>
+										<li><a href="#">Пункт 1.4</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Гироскутеры</a>
+									<ul class="dropdown-menu navmenu-nav" role="menu">
+										<li><a href="#">Пункт 1.1</a></li>
+										<li><a href="#">Пункт 1.2</a></li>
+										<li><a href="#">Пункт 1.3</a></li>
+										<li><a href="#">Пункт 1.4</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Квадракоптеры</a>
+									<ul class="dropdown-menu navmenu-nav" role="menu">
+										<li><a href="#">Пункт 1.1</a></li>
+										<li><a href="#">Пункт 1.2</a></li>
+										<li><a href="#">Пункт 1.3</a></li>
+										<li><a href="#">Пункт 1.4</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Красота и Мода</a>
+									<ul class="dropdown-menu navmenu-nav" role="menu">
+										<li><a href="#">Пункт 1.1</a></li>
+										<li><a href="#">Пункт 1.2</a></li>
+										<li><a href="#">Пункт 1.3</a></li>
+										<li><a href="#">Пункт 1.4</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Экш камеры <span
+											class="new">new</span></a>
+									<ul class="dropdown-menu navmenu-nav" role="menu">
+										<li><a href="#">Пункт 1.1</a></li>
+										<li><a href="#">Пункт 1.2</a></li>
+										<li><a href="#">Пункт 1.3</a></li>
+										<li><a href="#">Пункт 1.4</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Умные часы</a>
+									<ul class="dropdown-menu navmenu-nav" role="menu">
+										<li><a href="#">Пункт 1.1</a></li>
+										<li><a href="#">Пункт 1.2</a></li>
+										<li><a href="#">Пункт 1.3</a></li>
+										<li><a href="#">Пункт 1.4</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Видоригестраторы</a>
+									<ul class="dropdown-menu navmenu-nav" role="menu">
+										<li><a href="#">Пункт 1.1</a></li>
+										<li><a href="#">Пункт 1.2</a></li>
+										<li><a href="#">Пункт 1.3</a></li>
+										<li><a href="#">Пункт 1.4</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Портативная акустика</a>
+									<ul class="dropdown-menu navmenu-nav" role="menu">
+										<li><a href="#">Пункт 1.1</a></li>
+										<li><a href="#">Пункт 1.2</a></li>
+										<li><a href="#">Пункт 1.3</a></li>
+										<li><a href="#">Пункт 1.4</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Внешние аккумуляторы и
+										портативные зарядные устройства</a>
+									<ul class="dropdown-menu navmenu-nav" role="menu">
+										<li><a href="#">Пункт 1.1</a></li>
+										<li><a href="#">Пункт 1.2</a></li>
+										<li><a href="#">Пункт 1.3</a></li>
+										<li><a href="#">Пункт 1.4</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Популярное</a>
+									<ul class="dropdown-menu navmenu-nav" role="menu">
+										<li><a href="#">Пункт 1.1</a></li>
+										<li><a href="#">Пункт 1.2</a></li>
+										<li><a href="#">Пункт 1.3</a></li>
+										<li><a href="#">Пункт 1.4</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="col-sm-6 col-sm-offset-1 hidden-xs">
+					<div class="block-search">
+						<form action="#">
+							<input type="text" class="search-inp" placeholder="Поиск">
+							<input type="submit" class="search-send" title="Искать" >
+						</form>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-1 col-xs-2 col-xs-offset-1 col-sm-offset-0">
+					<div class="mob-mini-cart">
+						<a href="#" class="in-tow">Корзина<span>4</span></a>
 					</div>
 				</div>
 			</div>

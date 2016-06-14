@@ -1,5 +1,5 @@
+//Блоки одной высоты
 jQuery.fn.equivalent = function (){
-// сам скрипт
 	var jQueryblocks = jQuery(this),
 		maxH = jQueryblocks.eq(0).height();
 	jQueryblocks.each(function(){
@@ -8,3 +8,4 @@ jQuery.fn.equivalent = function (){
 	jQueryblocks.height(maxH);
 };
 jQuery('footer .container .row>div').equivalent(); // вызов скрипта
+jQuery('.block-catalog .item').equivalent(); // вызов скрипта

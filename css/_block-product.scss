@@ -1,0 +1,126 @@
+//=========================================
+.block-dostavkaInf{
+	.row >div {
+		.box {
+			border-bottom: 1px solid #ebebeb;
+			margin-bottom: 5px;
+			padding-bottom: 15px;
+		}
+		@media (max-width: 750px) {
+			&:last-child .box{
+				border: none;
+				padding-bottom: 0;
+			}
+		}
+		@media (min-width: 1170px) {
+			&:last-child .box{
+				border: none;
+				padding-bottom: 0;
+			}
+		}
+	}
+	.block-title{
+		display: table;
+		background: url("../img/point-1.png") no-repeat right center transparent;
+		padding-right: 20px;
+		font-size: 22px;
+		color: #666666;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+	.box-title{
+		color: #419cd5;
+		font-weight: 600;
+		padding-left: 20px;
+		&.box1{
+			background: url("../img/icon/icon-1.png") no-repeat 0 center transparent;
+		}
+		&.box2{
+			background: url("../img/icon/icon-2.png") no-repeat 0 center transparent;
+		}
+		&.box3{
+			background: url("../img/icon/icon-3.png") no-repeat 0 center transparent;
+		}
+		&.box4{
+			background: url("../img/icon/icon-4.png") no-repeat 0 center transparent;
+		}
+	}
+}
+//=========================================
+.block-description{
+	.block-title{
+		display: table;
+		background: url("../img/point-1.png") no-repeat right center transparent;
+		padding-right: 20px;
+		font-size: 22px;
+		color: #666666;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+	.read-all a{
+		text-align: left;
+		text-decoration: none;
+		&:after{
+			content: "";
+			display: inline-block;
+			background: url("../img/nav-arr1.png") no-repeat center center transparent;
+			height: 15px;
+			width: 15px;
+		}
+	}
+}
+//=========================================
+.block-infoProd{
+	.block-title{
+		display: table;
+		background: url("../img/point-1.png") no-repeat right center transparent;
+		padding-right: 20px;
+		font-size: 22px;
+		color: #666666;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+	.table>tbody>tr>td{
+		border: none;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 0;
+	}
+}
+//=========================================
+.block-buy{
+	.color-select{
+		.colors{
+			display: inline-block;
+		}
+		label{
+			width: 35px;
+			height: 35px;
+			text-indent: -999999px;
+			border: 3px solid #eaeaea;
+			border-radius: 50%;
+			-webkit-box-shadow: rgba(0,0,0,.15) 6px 6px 2px;
+			-moz-box-shadow: rgba(0,0,0,.15) 6px 6px 2px;
+			box-shadow: rgba(0,0,0,.15) 6px 6px 2px;
+		}
+		input{
+			display: none;
+			&:checked + label{
+				border: 3px solid #666;
+			}
+		}
+	}
+	.price-wrap{
+		.price{
+			font-size: 24px;
+			color: #666666;
+			font-weight: bold;
+		}
+		.price-off{
+			font-size: 20px;
+			color: #666666;
+			text-decoration: line-through;
+		}
+	}
+}
+//=========================================

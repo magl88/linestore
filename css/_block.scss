@@ -59,6 +59,14 @@
 		font-weight: 400;
 		line-height: 14px;
 	}
+	ul.nav li.dropdown:hover ul.dropdown-menu{
+		display: block;
+		margin: 0;
+	}
+
+	a.menu:after, .dropdown-toggle:after {
+		content: none;
+	}
 }
 //=========================================
 .block-akcii{
@@ -642,6 +650,146 @@
 	.box-text{
 		padding-top: 15px;
 		padding-left: 30px;
+	}
+}
+//=========================================
+.block-simelaryProd{
+	.block-title{
+		border-top: 1px solid #ebebeb;
+		font-size: 24px;
+		color: #666;
+		padding: 15px 0;
+		.points{
+			background: url("../img/point-3.png") no-repeat center center transparent;
+			display: inline-block;
+			margin-left: 10px;
+			width: 43px;
+			height: 12px;
+		}
+	}
+	.row {
+		&>div{
+			margin-bottom: 30px;
+		}
+	}
+	.item{
+		border: 1px solid #f0efef;
+		border-radius: 4px;
+		overflow: hidden;
+		.img-wrap{
+			margin-top: 30px;
+			text-align: center;
+			position: relative;
+			img{
+				height: 185px;
+				max-height: 185px;
+				max-width: 100%;
+			}
+			.color-wrap{
+				position: absolute;
+				left: 15px;
+				span{
+					margin-top: 10px;
+					display: table;
+					width: 32px;
+					height: 32px;
+					background-color: white;
+					border-radius: 50%;
+					border: 2px solid #ebebeb;
+					box-shadow: 3.4px 4.9px 2px rgba(0, 3, 1, 0.15);
+					&:first-child{
+						margin-top: 0;
+					}
+				}
+			}
+		}
+		&:hover{
+			.info-wrap{
+				display: none;
+			}
+			.buy-wrap{
+				display: block;
+			}
+		}
+		.info-wrap{
+			margin: 10px 20px 20px 20px;
+			padding-top: 10px;
+			border-top:1px solid #f0efef;
+			.name{
+				color: #666;
+				font-size: 14px;
+				font-weight: 600;
+				line-height: 16px;
+			}
+			.prise-wrap{
+				display: table;
+				width: 100%;
+				margin-top: 15px;
+				.price{
+					float: left;
+					color: #2e89c2;
+					font-size: 16px;
+					font-weight: 700;
+					line-height: 16px;
+					span{
+						padding-left: 5px;
+						color: #419cd5;
+						font-size: 12px;
+						font-weight: 700;
+						line-height: 16px;
+					}
+				}
+				.reit-wrap{
+					display: table;
+					float: right;
+					width: 65px;
+					height: 13px;
+					background: url("../img/star.png") no-repeat 0 center transparent;
+					span{
+						background: url("../img/star-a.png") no-repeat 0 center transparent;
+						text-indent: -999999px;
+						height: 13px;
+						display: table;
+						&.reit-1{
+							width: 13px;
+						}
+						&.reit-2{
+							width: 26px;
+						}
+						&.reit-3{
+							width: 39px;
+						}
+						&.reit-4{
+							width: 52px;
+						}
+						&.reit-5{
+							width: 65px;
+						}
+					}
+				}
+			}
+		}
+		.buy-wrap{
+			display: none;
+			margin-top: 53px;
+			a{
+				background: #419cd5;
+				color: #fff;
+				font-size: 16px;
+				font-weight: 700;
+				line-height: 20px;
+				text-transform: uppercase;
+				text-decoration: none;
+				display: table;
+				width: 100%;
+				text-align: center;
+				span{
+					background: url("../img/icon/icon-buyt.png") no-repeat 0 center ;
+					display: inline-block;
+					padding: 20px 0 20px 40px;
+				}
+			}
+		}
 	}
 }
 //=========================================

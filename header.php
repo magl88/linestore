@@ -29,7 +29,7 @@
 							<li class="item item5"><a href="/page-garant.php" title="Гарантия">Гарантия</a></li>
 							<li class="item item6"><a href="/news-page.php" title="отзывы">отзывы</a></li>
 							<li class="item item7"><a href="/page.php" title="о нас">о нас</a></li>
-							<li class="item item8"><a href="#" title="регистрация"><i class="glyphicon glyphicon-user"></i>регистрация</a></li>
+							<li class="item item8"><a href="/page-pdroduct.php" title="регистрация"><i class="glyphicon glyphicon-user"></i>регистрация</a></li>
 							<li class="item item9 hide"><a href="#" title="Личный кабинет"><i class="glyphicon glyphicon-user"></i>Личный кабинет</a></li>
 							<li class="item item10"><a href="#" title="авторизация"><i class="glyphicon glyphicon-log-in"></i>авторизация</a></li>
 							<li class="item item11 hide"><a href="#" title="Выход"><i class="glyphicon glyphicon-log-out"></i>Выход</a></li>

@@ -11,3 +11,8 @@ jQuery('footer .container .row>div').equivalent(); // вызов скрипта
 jQuery('.block-catalog .item').equivalent(); // вызов скрипта
 jQuery('.block-tabs .tab-inf').equivalent(); // вызов скрипта
 jQuery('.block-dostavkaInf .row >div .box').equivalent(); // вызов скрипта
+// ===================
+$('.bxslider').bxSlider({
+	pagerCustom: '#bx-pager'
+});
+// ===================

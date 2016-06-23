@@ -9,17 +9,32 @@
 				</div>
 			</div>
 		</div>
-		<section class="main-right-bar">
+		<section class="main-right-bar product-page">
 			<div class="row">
 				<div class="col-xs-12">
 					<h2 class="page-title">Xiaomi Yi Sport Green Basic Edition</h2>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row row-line">
 				<div class="col-lg-9">
 					<div class="row">
-						<div class="col-lg-7"></div>
-						<div class="col-lg-5">
+						<div class="col-lg-7 col-md-6 col-sm-12">
+							<div class="block-productImg">
+								<div id="bx-pager">
+									<a data-slide-index="0" href=""><img src="/img/prod-1.jpg" /></a>
+									<a data-slide-index="1" href=""><img src="/img/prod-2.jpg" /></a>
+									<a data-slide-index="2" href=""><img src="/img/prod-3.jpg" /></a>
+								</div>
+								<div class="box-bxslider">
+									<ul class="bxslider">
+										<li><img src="/img/prod-1.jpg" /></li>
+										<li><img src="/img/prod-2.jpg" /></li>
+										<li><img src="/img/prod-3.jpg" /></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-6 col-sm-12">
 							<div class="block-buy">
 								<form action="#" class="buy-form">
 									<div class="color-select">
@@ -49,7 +64,8 @@
 									</div>
 								</form>
 								<div class="box-reit">
-									<span>4 отзыва</span>
+									<span class="star"></span>
+									<a href="#">4 отзыва</a>
 								</div>
 								<div class="box-smile-decrt">
 									Матрица (светочувствительный элемент): 1/2.3", 16 Мп, Sony Exmor R BSI <br>
@@ -112,7 +128,7 @@
 					</div>
 				</div>
 				<div class="col-lg-3">
-					<div class="row block-dostavkaInf">
+					<div class="rowd block-dostavkaInf">
 						<div class=" block-title">Доставка и оплата</div>
 						<div class="row">
 							<div class="col-lg-12 col-sm-6">
@@ -142,6 +158,35 @@
 									обмен/возврат товара в течение 14 дней
 								</div>
 							</div>
+						</div>
+					</div>
+					<div class="block-otziv">
+						<div class="block-title">Отзывы покупателей</div>
+						<div class="item-wrap">
+							<div class="item">
+								<div class="data">08.02.2016</div>
+								<div class="title">Отличная камера, работает без проблем, в общем как и все от Xiaomi</div>
+								<div class="plus"><span>Достоинства:</span> Цена- качество</div>
+								<div class="minus"><span>Недостатки:</span> Нет.</div>
+								<div class="name">Максим <span class="star-wrap"><i class="star star-1"></i></span></div>
+							</div>
+							<div class="item">
+								<div class="data">08.02.2016</div>
+								<div class="title">Отличная камера, работает без проблем, в общем как и все от Xiaomi</div>
+								<div class="plus"><span>Достоинства:</span> Цена- качество</div>
+								<div class="minus"><span>Недостатки:</span> Нет.</div>
+								<div class="name">Максим <span class="star-wrap"><i class="star star-3"></i></span></div>
+							</div>
+							<div class="item">
+								<div class="data">08.02.2016</div>
+								<div class="title">Отличная камера, работает без проблем, в общем как и все от Xiaomi</div>
+								<div class="plus"><span>Достоинства:</span> Цена- качество</div>
+								<div class="minus"><span>Недостатки:</span> Нет.</div>
+								<div class="name">Максим <span class="star-wrap"><i class="star star-5"></i></span></div>
+							</div>
+						</div>
+						<div class="link-all">
+							<a href="#">Все отзывы</a>
 						</div>
 					</div>
 				</div>
